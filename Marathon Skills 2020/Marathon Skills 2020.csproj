@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3DF7F779-4399-42F5-B0B7-2A5241DFFDEB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Marathon_Skills_2020</RootNamespace>
+    <AssemblyName>Marathon Skills 2020</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MarathonSkillsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MarathonSkillsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Администрация\Admin_Window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Администрация\Admin_Window.Designer.cs">
+      <DependentUpon>Admin_Window.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Бегун\MenuRunner_Window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Бегун\MenuRunner_Window.Designer.cs">
+      <DependentUpon>MenuRunner_Window.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Бегун\NewRunner_Window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Бегун\NewRunner_Window.Designer.cs">
+      <DependentUpon>NewRunner_Window.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Общее\ConnectionStrings\Connection.cs" />
+    <Compile Include="Общее\Home_Window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Общее\Home_Window.Designer.cs">
+      <DependentUpon>Home_Window.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Общее\Login_Window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Общее\Login_Window.Designer.cs">
+      <DependentUpon>Login_Window.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Общее\MarathonSkills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Общее\MarathonSkills.Designer.cs">
+      <DependentUpon>MarathonSkills.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Администрация\Admin_Window.resx">
+      <DependentUpon>Admin_Window.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Бегун\MenuRunner_Window.resx">
+      <DependentUpon>MenuRunner_Window.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Бегун\NewRunner_Window.resx">
+      <DependentUpon>NewRunner_Window.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Общее\Home_Window.resx">
+      <DependentUpon>Home_Window.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Общее\Login_Window.resx">
+      <DependentUpon>Login_Window.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Общее\MarathonSkills.resx">
+      <DependentUpon>MarathonSkills.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="MarathonSkillsDataSet.xsc">
+      <DependentUpon>MarathonSkillsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MarathonSkillsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MarathonSkillsDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MarathonSkillsDataSet.xss">
+      <DependentUpon>MarathonSkillsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_shutdown_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_m5acos_minimize_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wsrlogo-01.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\_visible_16.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

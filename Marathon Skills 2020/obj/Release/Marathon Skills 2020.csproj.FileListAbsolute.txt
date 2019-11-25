@@ -1,0 +1,14 @@
+G:\Мои проекты\Marathon Skills 2020\Marathon Skills 2020\bin\Release\Marathon Skills 2020.exe.config
+G:\Мои проекты\Marathon Skills 2020\Marathon Skills 2020\bin\Release\Marathon Skills 2020.exe
+G:\Мои проекты\Marathon Skills 2020\Marathon Skills 2020\bin\Release\Marathon Skills 2020.pdb
+G:\Мои проекты\Marathon Skills 2020\Marathon Skills 2020\obj\Release\Marathon_Skills_2020.Form1.resources
+G:\Мои проекты\Marathon Skills 2020\Marathon Skills 2020\obj\Release\Marathon_Skills_2020.Properties.Resources.resources
+G:\Мои проекты\Marathon Skills 2020\Marathon Skills 2020\obj\Release\Marathon_Skills_2020.Общее.MarathonSkills.resources
+G:\Мои проекты\Marathon Skills 2020\Marathon Skills 2020\obj\Release\Marathon Skills 2020.csproj.GenerateResource.cache
+G:\Мои проекты\Marathon Skills 2020\Marathon Skills 2020\obj\Release\Marathon Skills 2020.exe
+G:\Мои проекты\Marathon Skills 2020\Marathon Skills 2020\obj\Release\Marathon Skills 2020.pdb
+G:\Мои проекты\Marathon Skills 2020\Marathon Skills 2020\obj\Release\Marathon_Skills_2020.Общее.Login_Window.resources
+G:\Мои проекты\Marathon Skills 2020\Marathon Skills 2020\obj\Release\Marathon Skills 2020.csprojAssemblyReference.cache
+G:\Мои проекты\Marathon Skills 2020\Marathon Skills 2020\obj\Release\Marathon_Skills_2020.Администрация.Admin_Window.resources
+G:\Мои проекты\Marathon Skills 2020\Marathon Skills 2020\obj\Release\Marathon_Skills_2020.Бегун.MenuRunner_Window.resources
+G:\Мои проекты\Marathon Skills 2020\Marathon Skills 2020\obj\Release\Marathon_Skills_2020.Бегун.NewRunner_Window.resources
